@@ -6,33 +6,35 @@ La solución propuesta para EcoMarket consiste en una arquitectura híbrida basa
 
 La arquitectura RAG aporta una significativa precisión y actualidad a las respuestas. Al incluir datos en tiempo real (p.ej. estado real de un pedido), se evitan respuestas obsoletas propias de LLM estáticos. Además, al basarse en información autorizada, RAG reduce las “alucinaciones” (errores no basados en datos reales) típicas de los LLM puros. Esto mejora la confianza del usuario, ya que la salida puede incluir referencias explícitas a fuentes (por ejemplo, “Según nuestro registro, su pedido 12345 fue enviado el…”). También se facilita la personalización: el sistema puede recuperar el historial específico del cliente (compras anteriores, preferencias) para adaptar la respuesta. Por ejemplo, en atención al cliente Esker reporta que RAG permite “generar respuestas basadas en contenido aprobado y actualizado” integrando datos de ERP y CRM, lo cual se traduciría en respuestas más eficientes y satisfactorias (especialmente para el 80% de consultas repetitivas).
 
-### 1.1. Reducción del tiempo de respuesta
+### - Reducción del tiempo de respuesta
 
 La principal fortaleza de la solución es su capacidad de responder de manera automática a gran parte de las consultas repetitivas. En el caso de EcoMarket, esto es especialmente relevante porque el problema central consiste en que el equipo de soporte recibe miles de consultas diarias y mantiene un tiempo de respuesta promedio de 24 horas.
 
-### 1.2. Disponibilidad continua
+### - Disponibilidad continua
 
 Otra fortaleza importante es la posibilidad de ofrecer atención **24/7**. A diferencia de un equipo humano, el sistema puede responder en cualquier momento del día, lo que mejora la experiencia del cliente, especialmente en canales digitales como chat, correo o redes sociales.
 
-### 1.3. Manejo eficiente del 80% de consultas repetitivas
+### - Manejo eficiente del 80% de consultas repetitivas
 
 La solución está bien alineada con la naturaleza del problema, ya que el caso plantea que aproximadamente el **80% de las consultas son repetitivas**. En este contexto, la IA generativa combinada con RAG puede encargarse de esas solicitudes frecuentes de manera eficiente, dejando al equipo humano más tiempo para atender los casos complejos.
 
-### 1.4. Respuestas más consistentes
+### - Respuestas más consistentes
 
 El sistema puede ayudar a estandarizar la calidad de la atención, evitando variaciones innecesarias entre agentes y garantizando que las respuestas sobre políticas, devoluciones o productos mantengan una línea uniforme.
 
-### 1.5. Mejor aprovechamiento del talento humano
+### - Mejor aprovechamiento del talento humano
 
 Una fortaleza estratégica de esta solución es que no necesariamente reemplaza a los agentes, sino que puede liberar al equipo de tareas repetitivas, los empleados pueden enfocarse en actividades de mayor valor, como resolver reclamos delicados, atender clientes inconformes o gestionar situaciones excepcionales.
 
-### 1.6. Escalabilidad operativa
+### - Escalabilidad operativa
 
 A medida que EcoMarket continúe creciendo, una solución basada en IA generativa puede atender un mayor volumen de consultas sin que el crecimiento del equipo de soporte tenga que aumentar al mismo ritmo. Esto hace que la solución sea atractiva desde una perspectiva operativa y empresarial.
 
 ## 2. Limitaciones de la solución propuesta
 
-### 2.1. Incapacidad para manejar adecuadamente todos los casos complejos
+Implementar RAG implica una compleja canalización técnica. Se requieren recursos para incrustar (vectorizar) todos los documentos empresariales y mantener la base de datos vectorial actualizada. Además, los LLM tienen un límite de tokens; por ello la búsqueda debe ser muy relevante, pues no se puede volcar un documento entero al prompt. Microsoft señala que RAG enfrenta desafíos prácticos: debe comprender consultas vagas o conversacionales y balancear exhaustividad contra rapidez (los usuarios esperan respuestas en segundos). Si la información de la base es incompleta o se desactualiza, el sistema podría devolver respuestas parciales o incorrectas. Por otro lado, el costo computacional puede crecer con el tamaño de la base de datos: más documentos implica más cálculos de similitud vectorial. Finalmente, como toda solución IA, depende de la calidad de los embeddings y del LLM; un mal ajuste en alguno puede degradar el desempeño global.
+
+### - Incapacidad para manejar adecuadamente todos los casos complejos
 
 La principal limitación del sistema es que no puede resolver bien todas las situaciones. Aunque puede responder consultas frecuentes, no sustituye la empatía, el juicio ni la flexibilidad de una persona en casos como:
 - quejas sensibles;
@@ -42,17 +44,17 @@ La principal limitación del sistema es que no puede resolver bien todas las sit
 
 Esto significa que la IA no debe operar como único canal de atención.
 
-### 2.2. Dependencia de la calidad de los datos
+### - Dependencia de la calidad de los datos
 
 La calidad de la respuesta dependerá en gran medida de la calidad de las fuentes de datos internas. Si la información de pedidos, devoluciones, productos o preguntas frecuentes está incompleta, desactualizada o mal organizada, el sistema generará respuestas incorrectas o confusas.
 
 En otras palabras, una mala base de conocimiento produce una mala experiencia, incluso si el modelo de IA es bueno.
 
-### 2.3. Riesgo de respuestas incorrectas o ambiguas
+### - Riesgo de respuestas incorrectas o ambiguas
 
 Aunque el uso de RAG reduce errores, no elimina completamente el problema. El modelo aún puede interpretar mal una consulta, mezclar información o responder con ambigüedad si el contexto recuperado no es suficiente o si la pregunta del usuario es confusa.
 
-### 2.4. Necesidad de supervisión y mantenimiento constante
+### - Necesidad de supervisión y mantenimiento constante
 
 La implementación de una solución de este tipo no es algo que se configure una sola vez y luego funcione perfectamente. Requiere:
 
@@ -63,7 +65,7 @@ La implementación de una solución de este tipo no es algo que se configure una
 
 Por tanto, no es una solución mágica ni completamente autónoma.
 
-### 2.5. Limitaciones para comprender contexto humano profundo
+### - Limitaciones para comprender contexto humano profundo
 
 Aunque el modelo pueda parecer conversacional y natural, no comprende emociones humanas de forma real. Puede simular empatía lingüística, pero no experimentar empatía genuina. Esto limita su capacidad para tratar situaciones delicadas con la sensibilidad adecuada. Tampoco siente miedo de que lo echen por una decisión, ni tampoco tiene sentido de responsabilidad en determinados casos. 
 
