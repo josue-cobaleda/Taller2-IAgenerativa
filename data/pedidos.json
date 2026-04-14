@@ -1,0 +1,62 @@
+[
+  {
+    "tracking_number": "1001",
+    "estado": "En camino",
+    "fecha_entrega": "2026-04-15",
+    "detalle": "Tu pedido está en tránsito hacia tu ciudad."
+  },
+  {
+    "tracking_number": "1002",
+    "estado": "Entregado",
+    "fecha_entrega": "2026-04-10",
+    "detalle": "El pedido fue entregado correctamente."
+  },
+  {
+    "tracking_number": "1003",
+    "estado": "Retrasado",
+    "fecha_entrega": "2026-04-18",
+    "detalle": "Retraso por alta demanda logística."
+  },
+  {
+    "tracking_number": "1004",
+    "estado": "Procesando",
+    "fecha_entrega": "2026-04-17",
+    "detalle": "Estamos preparando tu pedido."
+  },
+  {
+    "tracking_number": "1005",
+    "estado": "Cancelado",
+    "fecha_entrega": "N/A",
+    "detalle": "El pedido fue cancelado por el cliente."
+  },
+  {
+    "tracking_number": "1006",
+    "estado": "En camino",
+    "fecha_entrega": "2026-04-16",
+    "detalle": "En ruta con la transportadora."
+  },
+  {
+    "tracking_number": "1007",
+    "estado": "Retrasado",
+    "fecha_entrega": "2026-04-20",
+    "detalle": "Problemas logísticos."
+  },
+  {
+    "tracking_number": "1008",
+    "estado": "Entregado",
+    "fecha_entrega": "2026-04-09",
+    "detalle": "Entrega confirmada."
+  },
+  {
+    "tracking_number": "1009",
+    "estado": "Procesando",
+    "fecha_entrega": "2026-04-18",
+    "detalle": "Preparación en bodega."
+  },
+  {
+    "tracking_number": "1010",
+    "estado": "En camino",
+    "fecha_entrega": "2026-04-15",
+    "detalle": "Transporte en curso."
+  }
+]
