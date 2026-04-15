@@ -7,6 +7,10 @@ En esta fase se diseñaron prompts estructurados para resolver dos casos princip
 
 Se utilizó un enfoque tipo RAG, donde el modelo no responde libremente, sino con base en datos proporcionados.
 
+## Proceso de diseño de prompts
+
+Los prompts finales que se presentan en esta fase no surgieron en un solo intento. Llegamos a ellos mediante un proceso iterativo de ensayo y error: partimos de instrucciones básicas y simples, probamos las respuestas del modelo, identificamos dónde fallaba (alucinaciones, respuestas genéricas, falta de empatía) y fuimos refinando progresivamente las instrucciones hasta lograr resultados consistentes y alineados con las necesidades de EcoMarket. Este proceso es precisamente la esencia de la ingeniería de prompts: iterar hasta encontrar la combinación óptima de rol, contexto, restricciones y formato.
+
 ---
 
 ## a. Prompt de estado de pedido
