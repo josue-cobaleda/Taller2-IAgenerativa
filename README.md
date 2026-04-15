@@ -1,5 +1,10 @@
 # 🧠 Taller 1 - IA Generativa (EcoMarket)
 
+Autores: 
+Farid Sandoval 
+Ivan Morán
+Josué Cobaleda
+
 Este repositorio contiene el desarrollo del **Taller Práctico #1** de la asignatura de Inteligencia Artificial Generativa, enfocado en el diseño de una solución basada en **LLMs y arquitectura RAG (Retrieval-Augmented Generation)** para mejorar el servicio al cliente de una empresa de e-commerce ficticia llamada **EcoMarket**.
 
 ---
