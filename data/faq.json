@@ -1,0 +1,77 @@
+[
+  {
+    "pregunta": "¿Cuánto demora el envío de mi pedido?",
+    "respuesta": "Los envíos nacionales demoran entre 2 y 5 días hábiles dependiendo de la ciudad. Para Bogotá, Medellín y Cali el tiempo promedio es de 2 días. Para zonas rurales o apartadas puede tomar hasta 7 días hábiles.",
+    "tema": "envíos"
+  },
+  {
+    "pregunta": "¿Cuál es el costo de envío?",
+    "respuesta": "El envío es gratuito para compras superiores a 150.000 pesos. Para compras menores, el costo es de 12.000 pesos a ciudades principales y 18.000 pesos a zonas rurales.",
+    "tema": "envíos"
+  },
+  {
+    "pregunta": "¿Qué métodos de pago aceptan?",
+    "respuesta": "Aceptamos tarjetas de crédito y débito (Visa, Mastercard, American Express), PSE, Nequi, Daviplata y pago contra entrega en ciudades principales.",
+    "tema": "pagos"
+  },
+  {
+    "pregunta": "¿Puedo devolver un producto?",
+    "respuesta": "Sí, aceptamos devoluciones dentro de los 30 días posteriores a la compra, siempre que el producto esté sin usar y en su empaque original. Los productos de higiene personal, alimentos y líquidos abiertos no son devolvibles.",
+    "tema": "devoluciones"
+  },
+  {
+    "pregunta": "¿Cómo rastreo mi pedido?",
+    "respuesta": "Puedes rastrear tu pedido con el número de tracking que te enviamos por correo al momento de la compra. También puedes consultarlo respondiendo a este chat con tu número de pedido.",
+    "tema": "pedidos"
+  },
+  {
+    "pregunta": "¿Qué certificaciones tienen sus productos?",
+    "respuesta": "Nuestros productos cuentan con certificaciones como B Corp, Fair Trade, USDA Organic y Cruelty Free según aplique. Cada ficha de producto indica sus certificaciones específicas.",
+    "tema": "sostenibilidad"
+  },
+  {
+    "pregunta": "¿Tienen tienda física?",
+    "respuesta": "Actualmente operamos 100% en línea, pero contamos con puntos de entrega y recogida en Bogotá, Medellín, Cali y Barranquilla. Puedes elegir esta opción al momento de finalizar tu compra.",
+    "tema": "tienda"
+  },
+  {
+    "pregunta": "¿Puedo cambiar o cancelar mi pedido?",
+    "respuesta": "Puedes cancelar o modificar tu pedido dentro de las 2 horas siguientes a la compra, antes de que entre a proceso de despacho. Pasado ese tiempo deberás realizar una devolución una vez lo recibas.",
+    "tema": "pedidos"
+  },
+  {
+    "pregunta": "¿Los productos tienen garantía?",
+    "respuesta": "Los productos electrónicos y duraderos como la compostera, el cargador solar y las botellas térmicas tienen garantía de 6 meses contra defectos de fabricación. Los productos de consumo no tienen garantía una vez abiertos.",
+    "tema": "garantías"
+  },
+  {
+    "pregunta": "¿Cómo sé si un producto es verdaderamente sostenible?",
+    "respuesta": "Todos nuestros productos son evaluados bajo criterios de impacto ambiental: materiales (biodegradables, reciclados o de origen renovable), ciclo de vida, empaque y condiciones laborales del proveedor. Cada producto tiene una ficha de transparencia en su página.",
+    "tema": "sostenibilidad"
+  },
+  {
+    "pregunta": "¿Ofrecen descuentos por compra al por mayor?",
+    "respuesta": "Sí, para compras superiores a 500.000 pesos o para clientes corporativos ofrecemos descuentos desde el 10% hasta el 25%. Contáctanos a ventas@ecomarket.co para una cotización personalizada.",
+    "tema": "descuentos"
+  },
+  {
+    "pregunta": "¿Cómo puedo registrarme en el programa de fidelización?",
+    "respuesta": "Por cada compra acumulas puntos EcoVerde que puedes canjear por descuentos. El registro es gratuito al crear tu cuenta. Además, por cada pedido plantamos un árbol a tu nombre.",
+    "tema": "fidelización"
+  },
+  {
+    "pregunta": "¿Qué hago si mi producto llegó dañado?",
+    "respuesta": "Lamentamos el inconveniente. Envíanos una foto del producto dañado a soporte@ecomarket.co dentro de las 48 horas siguientes a la entrega y procesaremos un reemplazo o reembolso sin costo para ti.",
+    "tema": "devoluciones"
+  },
+  {
+    "pregunta": "¿Hacen envíos internacionales?",
+    "respuesta": "Por ahora solo realizamos envíos dentro de Colombia. Estamos trabajando para expandirnos a Ecuador, Perú y México durante el 2026.",
+    "tema": "envíos"
+  },
+  {
+    "pregunta": "¿Cómo puedo contactar a un agente humano?",
+    "respuesta": "Puedes escribirnos a soporte@ecomarket.co, llamar al (601) 745-8200 en horario de lunes a viernes de 8am a 6pm, o pedir escalamiento en este chat diciendo 'quiero hablar con un humano'.",
+    "tema": "contacto"
+  }
+]

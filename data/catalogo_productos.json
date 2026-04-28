@@ -1,0 +1,158 @@
+[
+  {
+    "producto_id": "P001",
+    "nombre": "Cepillo de dientes de bambú",
+    "descripcion": "Cepillo dental con mango 100% biodegradable de bambú y cerdas suaves de fibra vegetal.",
+    "categoria": "higiene",
+    "precio": 15000,
+    "material": "bambú",
+    "devolvible": false,
+    "razon_no_devolvible": "Producto de higiene personal",
+    "stock": 240
+  },
+  {
+    "producto_id": "P002",
+    "nombre": "Botella térmica de acero inoxidable 750ml",
+    "descripcion": "Botella reutilizable que mantiene bebidas frías por 24h y calientes por 12h. Libre de BPA.",
+    "categoria": "hogar",
+    "precio": 85000,
+    "material": "acero inoxidable",
+    "devolvible": true,
+    "stock": 120
+  },
+  {
+    "producto_id": "P003",
+    "nombre": "Set de 10 bolsas reutilizables de malla",
+    "descripcion": "Bolsas lavables de algodón orgánico para frutas, verduras y compras a granel.",
+    "categoria": "hogar",
+    "precio": 32000,
+    "material": "algodón orgánico",
+    "devolvible": true,
+    "stock": 180
+  },
+  {
+    "producto_id": "P004",
+    "nombre": "Detergente líquido biodegradable 1L",
+    "descripcion": "Detergente concentrado formulado sin fosfatos ni químicos agresivos, envase 100% reciclado.",
+    "categoria": "limpieza",
+    "precio": 28000,
+    "material": "fórmula vegetal",
+    "devolvible": false,
+    "razon_no_devolvible": "Producto líquido una vez abierto",
+    "stock": 300
+  },
+  {
+    "producto_id": "P005",
+    "nombre": "Pañales ecológicos de tela (paquete x3)",
+    "descripcion": "Pañales lavables y reutilizables, ajustables desde 4 hasta 15 kg. Ahorran hasta 5000 pañales desechables por bebé.",
+    "categoria": "bebé",
+    "precio": 120000,
+    "material": "algodón orgánico y bambú",
+    "devolvible": true,
+    "stock": 45
+  },
+  {
+    "producto_id": "P006",
+    "nombre": "Desodorante sólido natural",
+    "descripcion": "Desodorante en barra sin aluminio, sin parabenos y sin empaque plástico. Aroma lavanda.",
+    "categoria": "higiene",
+    "precio": 22000,
+    "material": "ingredientes vegetales",
+    "devolvible": false,
+    "razon_no_devolvible": "Producto de higiene personal",
+    "stock": 200
+  },
+  {
+    "producto_id": "P007",
+    "nombre": "Compostera doméstica 20L",
+    "descripcion": "Contenedor hermético para compostaje casero, incluye filtro de carbón activado y manual de uso.",
+    "categoria": "hogar",
+    "precio": 95000,
+    "material": "plástico reciclado",
+    "devolvible": true,
+    "stock": 60
+  },
+  {
+    "producto_id": "P008",
+    "nombre": "Jabón de barra artesanal de avena",
+    "descripcion": "Jabón corporal de elaboración artesanal, sin sulfatos, envuelto en papel reciclado.",
+    "categoria": "higiene",
+    "precio": 12000,
+    "material": "aceites vegetales y avena",
+    "devolvible": false,
+    "razon_no_devolvible": "Producto de higiene personal",
+    "stock": 350
+  },
+  {
+    "producto_id": "P009",
+    "nombre": "Pitillos reutilizables de acero (set x6 + cepillo)",
+    "descripcion": "Set de 6 pitillos de acero inoxidable con cepillo de limpieza y bolsa de tela para transporte.",
+    "categoria": "cocina",
+    "precio": 18000,
+    "material": "acero inoxidable",
+    "devolvible": true,
+    "stock": 220
+  },
+  {
+    "producto_id": "P010",
+    "nombre": "Envoltorios de cera de abeja (set x3)",
+    "descripcion": "Alternativa reutilizable al papel film, ideal para conservar alimentos. Duran hasta 1 año con buen uso.",
+    "categoria": "cocina",
+    "precio": 45000,
+    "material": "algodón y cera de abeja",
+    "devolvible": true,
+    "stock": 90
+  },
+  {
+    "producto_id": "P011",
+    "nombre": "Shampoo sólido cabello graso",
+    "descripcion": "Shampoo en barra formulado para cuero cabelludo graso, sin plástico en empaque. Equivale a 2 botellas.",
+    "categoria": "higiene",
+    "precio": 26000,
+    "material": "ingredientes vegetales",
+    "devolvible": false,
+    "razon_no_devolvible": "Producto de higiene personal",
+    "stock": 140
+  },
+  {
+    "producto_id": "P012",
+    "nombre": "Cargador solar portátil 10000mAh",
+    "descripcion": "Batería externa con panel solar integrado, puertos USB-C y USB-A, resistente a salpicaduras.",
+    "categoria": "tecnología",
+    "precio": 180000,
+    "material": "plástico reciclado y silicio",
+    "devolvible": true,
+    "stock": 35
+  },
+  {
+    "producto_id": "P013",
+    "nombre": "Toallas menstruales reutilizables (pack x5)",
+    "descripcion": "Toallas íntimas de tela lavables y absorbentes, con varias capas y diseño anti-filtración.",
+    "categoria": "higiene",
+    "precio": 68000,
+    "material": "algodón orgánico y bambú",
+    "devolvible": false,
+    "razon_no_devolvible": "Producto de higiene íntima",
+    "stock": 75
+  },
+  {
+    "producto_id": "P014",
+    "nombre": "Macetas biodegradables (set x12)",
+    "descripcion": "Macetas fabricadas con fibra de coco prensada, se pueden sembrar directamente en tierra.",
+    "categoria": "jardín",
+    "precio": 24000,
+    "material": "fibra de coco",
+    "devolvible": true,
+    "stock": 160
+  },
+  {
+    "producto_id": "P015",
+    "nombre": "Libreta reciclada A5 tapa dura",
+    "descripcion": "Libreta de 200 hojas de papel 100% reciclado, tapa de cartón reutilizado, cocida artesanalmente.",
+    "categoria": "oficina",
+    "precio": 19000,
+    "material": "papel reciclado",
+    "devolvible": true,
+    "stock": 280
+  }
+]
